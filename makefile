@@ -1,11 +1,5 @@
-output: main.o commands.o
-	gcc main.o commands.o -o output
+output:
+	gcc -o output main.c
 
-main.o: main.c
-	gcc -c main.c
-
-commands.o: commands.c
-	gcc -c commands.c
-
-clean: 
-	rm output *.o
+clean:
+	rm output

@@ -3,7 +3,8 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include <string.h>
-#include "commands.h"
+#include <stdlib.h>
+
 
 #define SIZE 1024
 #define TOKEN_BUF_SIZE 64
