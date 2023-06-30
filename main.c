@@ -47,6 +47,7 @@ char *read_line()
     }
 }
 
+
 char **tokenize(char *line)
 {
     int buf_size = TOKEN_BUF_SIZE, position = 0;
